@@ -1,9 +1,9 @@
 import React from "react";
 
-const PropsComp = ({name, company}) => {
+const PropsDestructure = ({name, company}) => {
 	return (
 	<div>
-		<h1> Hello {name} {company}</h1>
+		<h1> Props destructuring {name} {company}</h1>
 	</div>
 	);
 }
@@ -15,4 +15,4 @@ const PropsWithKeywoard = (props) => {
 
 const PropsWithChildren = (props) => <div>Props with children component {props.children}</div>
 
-export {PropsComp, PropsWithKeywoard, PropsWithChildren};
+export {PropsDestructure, PropsWithKeywoard, PropsWithChildren};

@@ -4,7 +4,7 @@ import './App.css'
 
 import FirstComponent from './modules/1Component';
 import { ComponentOne, ComponentTwo } from './modules/2MultipleComponents';
-import {PropsComp, PropsWithChildren, PropsWithKeywoard} from './modules/3PropsComponent';
+import {PropsDestructure, PropsWithChildren, PropsWithKeywoard} from './modules/3PropsComponent';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
 		<FirstComponent />
 		<ComponentOne />
 		<ComponentTwo />
-		<PropsComp name="suman" company="nevaeh" />
+		<PropsDestructure name="suman" company="nevaeh" />
 		<PropsWithKeywoard name='suman' address='kolkata' />
 		<PropsWithChildren>
 			<button>children</button>
