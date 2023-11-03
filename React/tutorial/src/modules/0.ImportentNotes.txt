@@ -1,0 +1,2 @@
+1. Component: A function which can be used anywhere in your project.
+2. Props: Immutable object passed to child component to send data.
