@@ -5,6 +5,10 @@ import './App.css'
 import FirstComponent from './modules/1Component';
 import { ComponentOne, ComponentTwo } from './modules/2MultipleComponents';
 import {PropsDestructure, PropsWithChildren, PropsWithKeywoard} from './modules/3PropsComponent';
+import EventHandler from './modules/4EventHandler';
+import ParentComponent from './modules/5MethodAsPropsParent';
+import ConditionalRender from './modules/6ConditionalOperator';
+import ListRendering from './modules/7ListRendering';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
 		<PropsWithChildren>
 			<button>children</button>
 		</PropsWithChildren>
+		<EventHandler />
+		<ParentComponent />
+		<ConditionalRender />
+		<ListRendering />
     </div>
   );
 }
