@@ -9,6 +9,9 @@ import EventHandler from './modules/4EventHandler';
 import ParentComponent from './modules/5MethodAsPropsParent';
 import ConditionalRender from './modules/6ConditionalOperator';
 import ListRendering from './modules/7ListRendering';
+import ControlledComponent from './modules/8ControlledComponent';
+import FragmentTable from './modules/9FragmentTable';
+import MemoParent from './modules/10MemoParent';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
 		<ParentComponent />
 		<ConditionalRender />
 		<ListRendering />
+		<ControlledComponent />
+		<FragmentTable />
+		<MemoParent />
     </div>
   );
 }

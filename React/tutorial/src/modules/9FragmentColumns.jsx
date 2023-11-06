@@ -1,7 +1,9 @@
 import React from "react";
 
 const list = ['suman', 'kalyan', 'maiti']
-function Column() {
+
+const FragmentColumn = () => {
+	
 	return (
 		list.map(
 			(item, index) => {
@@ -15,4 +17,4 @@ function Column() {
 	)
 }
 
-export default Column;
+export default FragmentColumn;

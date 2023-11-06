@@ -2,3 +2,11 @@
 2. Props: Immutable object passed to child component to send data.
 3. Event Handeler: A function to handel an event. Don't add () when assigning the handler.
 4. controlled component: component's value will be controlled by component's state. e.g. form element's value.
+5. memo: menoize a component. it is a higer order component.
+6. useMemo: memoize a value
+7. useCallback: memoize a function 
+8. useState: add state to a functional component
+9. useEffect: to perform side effects in a components e.g. api call at mounting, operations which are dependent on some state
+    1. no dependency: it will call every time when state or prop will change/ every mount of the component.
+    2. empty dependency: only one time it will be called.
+    3. veriables inside dependency: it will call when veriables will be changed.
