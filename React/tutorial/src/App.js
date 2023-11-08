@@ -12,6 +12,7 @@ import ListRendering from './modules/7ListRendering';
 import ControlledComponent from './modules/8ControlledComponent';
 import FragmentTable from './modules/9FragmentTable';
 import MemoParent from './modules/10MemoParent';
+import {UseEffect, UseEffectDependent, UseEffectEmptyDependency} from './modules/11UseEffect';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
 		<ControlledComponent />
 		<FragmentTable />
 		<MemoParent />
+		<UseEffect />
+		<UseEffectDependent />
+		<UseEffectEmptyDependency />
     </div>
   );
 }
