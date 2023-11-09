@@ -10,3 +10,10 @@
     1. no dependency: it will call every time when state or prop will change/ every mount of the component.
     2. empty dependency: only one time it will be called.
     3. veriables inside dependency: it will call when veriables will be changed.
+10. if you want to update a state from the eventHandler then you have to add an arrow function.
+11. setInterval veriable is used to clear the interval. but the interval will be start execution autometically.
+
+12. Whenever compoent's state or props will change then:
+	1. First component will be unmounted. 
+	1. Second component will be mounted again.
+
