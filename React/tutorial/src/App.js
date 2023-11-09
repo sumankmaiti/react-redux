@@ -14,6 +14,7 @@ import FragmentTable from './modules/9FragmentTable';
 import MemoParent from './modules/10MemoParent';
 import {UseEffect, UseEffectDependent, UseEffectEmptyDependency} from './modules/11UseEffect';
 import UseEffectCleanup from './modules/11UseEffectCleanup';
+import UseContext from './modules/12UseContext';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
 		<UseEffectDependent />
 		<UseEffectEmptyDependency />
 		<UseEffectCleanup />
+		<UseContext />
     </div>
   );
 }

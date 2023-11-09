@@ -17,3 +17,7 @@
 	1. First component will be unmounted. 
 	1. Second component will be mounted again.
 
+13. useContext: to grab context from any child. context is a way to pass data to child without props
+    1. create a context
+    2. provide value into context
+    3. use the context name to get the value

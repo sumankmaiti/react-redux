@@ -1,5 +1,5 @@
 import React from "react";
-import ModuleB from "./ModuleB";
+import ModuleB from "./12ModuleB";
 
 function ModuleA() {
 		return(

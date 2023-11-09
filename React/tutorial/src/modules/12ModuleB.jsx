@@ -1,5 +1,5 @@
 import React from "react";
-import ModuleC from "./ModuleC";
+import ModuleC from "./12ModuleC";
 
 function ModuleB() {
 		return(
