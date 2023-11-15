@@ -1,41 +1,41 @@
 import React, { useReducer } from "react";
 
 // const InitialValue = 0
-const initialObj = {
-	count:0,
-	count2:10
+const initialCounter = {
+	count: 0,
+	count2: 10
 }
 
-const reducer = (obj, action) => {
+const reducer = (counter, action) => {
 	switch(action.type) {
 		case 'increment':
 			// return count + 1
-			return {...obj, count:obj.count + action.value}
+			return {...counter, count: counter.count + action.value}
 		case 'decrement':
 			// return count - 1
-			return {...obj, count:obj.count - action.value}
+			return {...counter, count: counter.count - action.value}
 		case 'increment2':
 			// return count + 1
-			return {...obj, count2:obj.count2 + action.value}
+			return {...counter, count2: counter.count2 + action.value}
 		case 'decrement2':
 			// return count - 1
-			return {...obj, count2:obj.count2 - action.value}
+			return {...counter, count2: counter.count2 - action.value}
 		case 'reset':
-			return initialObj
+			return initialCounter
 		default:
 			// return count
-			return obj
+			return counter
 	}
 }
 
-function UseReduce() {
-	const [countObj, dispatch] = useReducer(reducer, initialObj)
-	const [countObj2, dispatch2] = useReducer(reducer, initialObj)
+const UseReducer = () => {
+	const [countObj, dispatch] = useReducer(reducer, initialCounter)
+	const [countObj2, dispatch2] = useReducer(reducer, initialCounter)
 
 	return(
 		<div>
 			<div>{countObj.count}</div>
-			<button onClick={() => dispatch({type : 'increment', value : 1})}>Increment</button>
+			<button onClick={() => dispatch({type: 'increment', value : 1})}>Increment</button>
 			<button onClick={() => dispatch({type: 'decrement', value : 1})}>Decrement</button>
 
 			<div>{countObj.count2}</div>
@@ -51,4 +51,4 @@ function UseReduce() {
 	)
 }
 
-export default UseReduce
+export default UseReducer

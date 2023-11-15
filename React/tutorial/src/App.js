@@ -15,6 +15,8 @@ import MemoParent from './modules/10MemoParent';
 import {UseEffect, UseEffectDependent, UseEffectEmptyDependency} from './modules/11UseEffect';
 import UseEffectCleanup from './modules/11UseEffectCleanup';
 import UseContext from './modules/12UseContext';
+import UseReducer from './modules/13UseReducer';
+import UseReducerDataFetch from './modules/13UseReducerDataFetch';
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
 		<UseEffectEmptyDependency />
 		<UseEffectCleanup />
 		<UseContext />
+		<UseReducer />
+		<UseReducerDataFetch />
     </div>
   );
 }
