@@ -1,6 +1,6 @@
-import React, { memo } from "react";
+import React from "react";
 
-function Title() {
+const Title = () => {
 	console.log('Rendering Title');
 	return(
 		<div>
@@ -9,4 +9,4 @@ function Title() {
 	)
 }
 
-export default memo(Title)
+export default React.memo(Title)

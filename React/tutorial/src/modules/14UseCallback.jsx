@@ -1,19 +1,19 @@
 import React, { useCallback, useState } from "react";
-import Title from "./Title";
-import Count from "./Count";
-import Button from "./Button";
+import Title from "./14Title";
+import Count from "./14Count";
+import Button from "./14Button";
 
-function UseCallBack() {
+const UseCallBack = () => {
 	const [age, setAge] = useState(20)
 	const [salary, setSalary] = useState(10000)
 
 	const incrementAge = useCallback(() => {
 		setAge(age + 1)
-	},[age])
+	}, [age])
 
 	const incrementSalary = useCallback(() => {
 		setSalary(salary + 1000)
-	},[salary])
+	}, [salary])
 
 	return(
 		<div>

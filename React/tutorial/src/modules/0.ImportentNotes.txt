@@ -21,3 +21,12 @@
     1. create a context
     2. provide value into context
     3. use the context name to get the value
+
+14. Reducer: A function defines how the state will be updated.
+    1. Accepts a state and action
+    2. Return updated state.
+
+14. useReducer: add a state to a functional component 
+    1. It accepts a reducer and initial state object.
+    2. state should be an object or array
+    3. better for manage too many states and state transitions.

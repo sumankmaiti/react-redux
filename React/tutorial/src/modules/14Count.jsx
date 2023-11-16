@@ -1,7 +1,8 @@
 import React, { memo } from "react";
 
-function Count({text, count}) {
+const Count = ({text, count}) => {
 	console.log(`rendering ${text}`);
+
 	return <div> {text} - {count} </div>
 }
 
