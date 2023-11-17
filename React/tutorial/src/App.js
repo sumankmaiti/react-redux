@@ -18,6 +18,7 @@ import UseContext from './modules/12UseContext';
 import UseReducer from './modules/13UseReducer';
 import UseReducerDataFetch from './modules/13UseReducerDataFetch';
 import UseCallBack from './modules/14UseCallback';
+import UseMemo from './modules/15UseMemo';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
 		<UseReducer />
 		<UseReducerDataFetch />
 		<UseCallBack />
+		<UseMemo />
     </div>
   );
 }

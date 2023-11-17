@@ -30,3 +30,11 @@
     1. It accepts a reducer and initial state object.
     2. state should be an object or array
     3. better for manage too many states and state transitions.
+
+15. useCallback: memoize a function.
+    1. accept a function
+    2. add the state in the dependency array
+
+16. useMemo: memoize a veriable.
+    1. accept a function
+    2. add the state in the dependency array 

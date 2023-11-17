@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 
-function UseMemo() {
+const UseMemo = () => {
 	const [one, setOne] = useState(0)
 	const [two, setTwo] = useState(0)
 
